@@ -1,3 +1,48 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
+
+h1 {
+  @apply font-bold;
+  @apply text-3xl;
+}
+
+.content-block {
+  /* @apply border-4 border border-indigo-500; */
+  @apply bg-indigo-300;
+  @apply mx-32 my-2;
+  @apply px-4 py-2;
+  @apply rounded-xl;
+  @apply hover:scale-110 hover:border hover:transition;
+}
+
+h2 {
+  @apply font-semibold;
+  @apply text-lg;
+  @apply py-1 px-2;
+  @apply bg-pink-300;
+  @apply rounded-xl;
+}
+
+h3 {
+  @apply font-semibold;
+  @apply py-1;
+}
+
+img {
+  @apply rounded-xl;
+  @apply py-2;
+}
+
+body {
+  @apply bg-pink-100;
+}
+
+p {
+  @apply py-1;
+}
+
+ul {
+  @apply list-disc;
+  @apply px-6;
+}
