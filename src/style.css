@@ -15,7 +15,7 @@ h1 {
   @apply mx-32 my-2;
   @apply px-4 py-2;
   @apply rounded-xl;
-  @apply hover:scale-110 hover:border hover:transition;
+  @apply transition delay-100 hover:scale-110 hover:border;
 }
 
 h2 {
