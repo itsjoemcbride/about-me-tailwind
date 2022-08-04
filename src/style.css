@@ -12,7 +12,7 @@ h1 {
 .content-block {
   /* @apply border-4 border border-indigo-500; */
   @apply bg-indigo-300;
-  @apply mx-32 my-2;
+  @apply mx-8 my-2 sm:mx-16 md:mx-48 lg:mx-64 xl:mx-96;
   @apply px-4 py-2;
   @apply rounded-xl;
   @apply transition delay-100 hover:scale-110 hover:border;
@@ -20,9 +20,9 @@ h1 {
 
 h2 {
   @apply font-semibold;
-  @apply text-lg;
+  @apply text-lg text-gray-100;
   @apply py-1 px-2;
-  @apply bg-pink-300;
+  @apply bg-pink-400;
   @apply rounded-xl;
 }
 
@@ -51,4 +51,8 @@ ul {
 
 .quote-block {
   @apply p-4;
+}
+
+body {
+  font-family: "Comic Sans MS";
 }
