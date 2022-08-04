@@ -4,7 +4,9 @@
 
 h1 {
   @apply font-bold;
-  @apply text-3xl;
+  @apply text-center text-3xl text-pink-100;
+  @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+  @apply py-2;
 }
 
 .content-block {
@@ -45,4 +47,8 @@ p {
 ul {
   @apply list-disc;
   @apply px-6;
+}
+
+.quote-block {
+  @apply p-4;
 }
