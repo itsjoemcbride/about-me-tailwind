@@ -14,8 +14,9 @@ h1 {
 .content-block {
   /* @apply border-4 border-indigo-500; */
   @apply bg-white;
-  @apply mx-8  sm:mx-16 md:mx-48 lg:mx-64 xl:mx-96;
-  @apply my-4 px-4 py-2;
+  /* @apply mx-8  sm:mx-16 md:mx-48 lg:mx-64 xl:mx-96; /*This applies padding pased on the size of the screen, switched for a method which sets a max width depending on size*/
+  @apply sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl;
+  @apply my-4 mx-4 px-4 py-2;
   @apply transition delay-100 hover:scale-110 hover:border;
 }
 
