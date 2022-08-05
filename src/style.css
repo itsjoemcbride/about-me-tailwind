@@ -23,7 +23,7 @@ h1 {
 h2 {
   @apply font-semibold;
   @apply text-lg text-gray-100;
-  @apply py-1 px-2;
+  @apply my-2 py-1 px-2;
   @apply bg-purple-500;
 }
 
